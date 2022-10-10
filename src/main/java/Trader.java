@@ -155,4 +155,7 @@ public class Trader<T> {
         return this.inventory;
     }
 
+    public void addToWishlist(T object) {
+        this.wishlist.add(object);
+    }
 }
